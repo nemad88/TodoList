@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/DialogController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoItem.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/mainwindow.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/todoItemDialog.fxml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/TodoListItems.txt" afterPath="$PROJECT_DIR$/TodoListItems.txt" />
       <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,26 +102,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DialogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java">
+      <file leaf-file-name="TodoItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="442">
+              <caret line="42" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#TodoItem#0;class#TodoItem#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+            <state relative-caret-position="416">
+              <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1945#2757#0" expanded="true" />
+                <element signature="e#2756#2757#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callback.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/util/Callback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Labeled.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="146" column="22" lean-forward="false" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListCell.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,42 +178,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListView.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="398" column="22" lean-forward="false" selection-start-line="398" selection-start-column="22" selection-end-line="398" selection-end-column="22" />
-              <folding>
-                <element signature="e#17686#17687#0" expanded="true" />
-                <element signature="e#17728#17729#0" expanded="true" />
-                <element signature="e#18219#18220#0" expanded="true" />
-                <element signature="e#18276#18277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="2745" column="41" lean-forward="false" selection-start-line="2745" selection-start-column="41" selection-end-line="2745" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FXCollections.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/collections/FXCollections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="75" column="113" lean-forward="false" selection-start-line="75" selection-start-column="113" selection-end-line="75" selection-end-column="113" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoListItems.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TodoListItems.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -227,14 +214,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
-        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" />
         <option value="$PROJECT_DIR$/TodoListItems.txt" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
       </list>
     </option>
   </component>
@@ -473,7 +460,7 @@
       <workItem from="1519231614800" duration="5073000" />
       <workItem from="1519316182724" duration="2703000" />
       <workItem from="1519391066130" duration="723000" />
-      <workItem from="1519401917267" duration="11053000" />
+      <workItem from="1519401917267" duration="13565000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1519470643585</created>
@@ -482,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519470643585</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second">
+      <created>1519472397505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519472397505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20854000" />
+    <option name="totallyTimeSpent" value="23366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -536,7 +530,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Second" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,6 +571,8 @@
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1945#2757#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,8 +605,6 @@
             <element signature="e#817#818#0" expanded="false" />
             <element signature="e#868#869#0" expanded="false" />
             <element signature="e#908#909#0" expanded="false" />
-            <element signature="e#954#955#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,6 +641,8 @@
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1945#2757#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,8 +675,6 @@
             <element signature="e#817#818#0" expanded="false" />
             <element signature="e#868#869#0" expanded="false" />
             <element signature="e#908#909#0" expanded="false" />
-            <element signature="e#954#955#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -738,8 +733,6 @@
             <element signature="e#817#818#0" expanded="false" />
             <element signature="e#868#869#0" expanded="false" />
             <element signature="e#908#909#0" expanded="false" />
-            <element signature="e#954#955#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -750,6 +743,8 @@
           <caret line="48" column="73" lean-forward="true" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1945#2757#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -779,6 +774,8 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1945#2757#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,16 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="method#TodoItem#0;class#TodoItem#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -870,27 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -908,6 +874,49 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="146" column="22" lean-forward="false" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/util/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
@@ -928,11 +937,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="42" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="method#TodoItem#0;class#TodoItem#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1945#2757#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
