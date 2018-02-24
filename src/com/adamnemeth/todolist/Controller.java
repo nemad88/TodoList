@@ -58,11 +58,19 @@ public class Controller {
                             setText(null);
                         } else {
                             setText(item.getShortDescription());{
+//                                if(item.getDeadline().equals(LocalDate.now().plusDays(1))){
+//                                    setTextFill(Color.RED);
+//                                } else if (item.getDeadline().equals(LocalDate.now().plusDays(1))){
+//                                    setTextFill(Color.VIOLET);
+//                                }
                                 if(item.getDeadline().isBefore(LocalDate.now().plusDays(1))){
                                     setTextFill(Color.RED);
                                 } else if (item.getDeadline().equals(LocalDate.now().plusDays(1))){
                                     setTextFill(Color.VIOLET);
+                                } else if (item.getDeadline().isAfter(LocalDate.now())){
+                                    setTextFill(Color.BLACK);
                                 }
+
                             }
                         }
                     }
