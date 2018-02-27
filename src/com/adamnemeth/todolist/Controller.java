@@ -3,12 +3,12 @@ package com.adamnemeth.todolist;
 import com.adamnemeth.todolist.datamodel.TodoData;
 import com.adamnemeth.todolist.datamodel.TodoItem;
 import javafx.application.Platform;
-import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -20,16 +20,16 @@ import javafx.scene.paint.Color;
 import javafx.util.Callback;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
-import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
 public class Controller {
 
-    private List<TodoItem> todoItems;
+    //private List<TodoItem> todoItems;
     @FXML
     private ListView<TodoItem> todoListView;
     @FXML
@@ -42,13 +42,27 @@ public class Controller {
     private ContextMenu listContextMenu;
     @FXML
     private ToggleButton filterToggleButton;
-    private ToggleSwitch toggleSwitch;
+    @FXML
+    private CheckBox overdueCB;
+    @FXML
+    private CheckBox onTimeCB;
     private FilteredList<TodoItem> filteredList;
     private Predicate<TodoItem> wantAllItems;
     private Predicate<TodoItem> wantTodaysItems;
+    private Predicate<TodoItem> wantOnTimeItems;
+    private Predicate<TodoItem> wantOverdueItems;
 
     public void initialize(){
-        toggleSwitch = new ToggleSwitch();
+
+//        try {
+//            TodoData.getInstance().setDatabaseConnection();
+//            System.out.println("Connection OK");
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+
+        overdueCB.setSelected(true);
+        onTimeCB.setSelected(true);
         listContextMenu = new ContextMenu();
         MenuItem deleteMenuItem = new MenuItem("Delete");
         deleteMenuItem.setOnAction(new EventHandler<ActionEvent>() {
@@ -59,8 +73,6 @@ public class Controller {
             }
         });
         listContextMenu.getItems().addAll(deleteMenuItem);
-
-
 
         todoListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<TodoItem>() {
             @Override
@@ -88,6 +100,20 @@ public class Controller {
             }
         };
 
+        wantOverdueItems= new Predicate<TodoItem>() {
+            @Override
+            public boolean test(TodoItem todoItem) {
+                return (todoItem.getDeadline().isBefore(LocalDate.now()));
+            }
+        };
+
+        wantOnTimeItems= new Predicate<TodoItem>() {
+            @Override
+            public boolean test(TodoItem todoItem) {
+                return (todoItem.getDeadline().isAfter(LocalDate.now()));
+            }
+        };
+
         filteredList = new FilteredList<TodoItem>(TodoData.getInstance().getTodoItems(), wantAllItems);
 
         SortedList<TodoItem> sortedList = new SortedList<TodoItem>(filteredList, new Comparator<TodoItem>() {
@@ -111,11 +137,6 @@ public class Controller {
                             setText(null);
                         } else {
                             setText(item.getShortDescription());{
-//                                if(item.getDeadline().equals(LocalDate.now().plusDays(1))){
-//                                    setTextFill(Color.RED);
-//                                } else if (item.getDeadline().equals(LocalDate.now().plusDays(1))){
-//                                    setTextFill(Color.VIOLET);
-//                                }
                                 if(item.getDeadline().isBefore(LocalDate.now().plusDays(1))){
                                     setTextFill(Color.RED);
                                 } else if (item.getDeadline().equals(LocalDate.now().plusDays(1))){
@@ -123,7 +144,6 @@ public class Controller {
                                 } else if (item.getDeadline().isAfter(LocalDate.now())){
                                     setTextFill(Color.BLACK);
                                 }
-
                             }
                         }
                     }
@@ -188,8 +208,14 @@ public class Controller {
         alert.setContentText("Are you sure? Press OK to confirm, or cancel to back out.");
         Optional<ButtonType> result = alert.showAndWait();
 
-        if (result.isPresent() && (result.get() == ButtonType.OK)){
-            TodoData.getInstance().deleteTodoItem(item);
+        try {
+            if (result.isPresent() && (result.get() == ButtonType.OK)){
+                String itemToDelete = item.getShortDescription();
+                TodoData.getInstance().getConnection().createStatement().execute("DELETE FROM WHERE SHORTDESC="+itemToDelete);
+                TodoData.getInstance().deleteTodoItem(item);
+            }
+        }catch (SQLException exception){
+            System.out.println(exception);
         }
     }
 
@@ -220,13 +246,34 @@ public class Controller {
     }
 
     @FXML
-    public void handleExit(){
-        Platform.exit();
+    public void handeTimeFilterCB(Event event){
+
+        if (overdueCB.isSelected() & onTimeCB.isSelected()){
+            filteredList.setPredicate(wantAllItems);
+        } else if(!overdueCB.isSelected() & onTimeCB.isSelected()){
+            filteredList.setPredicate(wantOnTimeItems);
+        } else if(overdueCB.isSelected() & !onTimeCB.isSelected()){
+            filteredList.setPredicate(wantOverdueItems);
+        } else {
+            filteredList.setPredicate(new Predicate<TodoItem>() {
+                @Override
+                public boolean test(TodoItem todoItem) {
+                    return false;
+                }
+            });
+        }
+
+//        CheckBox cb = (CheckBox) event.getSource();
+//        String id = cb.getId();
+//        if(id.equals("overdueCB")){
+//            System.out.println("overdue");
+//        } else {
+//
+//        }
     }
 
-    public void handleToggleSwitch(){
-        SimpleBooleanProperty allapot = toggleSwitch.switchOnProperty();
-        System.out.println(allapot.getValue());
-        System.out.println("teszt");
+    @FXML
+    public void handleExit(){
+        Platform.exit();
     }
 }

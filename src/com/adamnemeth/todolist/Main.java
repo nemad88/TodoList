@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class Main extends Application {
 
@@ -28,6 +29,7 @@ public class Main extends Application {
     public void stop() throws Exception {
         try {
             TodoData.getInstance().storeTodoItems();
+            TodoData.getInstance().getConnection().close();
         } catch (IOException e){
             System.out.println(e.getMessage());
         }
@@ -36,8 +38,8 @@ public class Main extends Application {
     @Override
     public void init() throws Exception {
         try {
-            TodoData.getInstance().loadTodoItems();
-        } catch (IOException e){
+            TodoData.getInstance().getTodoItemsFromDatabase();
+        } catch (SQLException e){
             System.out.println(e.getMessage());
         }
     }

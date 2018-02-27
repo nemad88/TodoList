@@ -18,7 +18,8 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.control.ToggleButton?>
-<?import com.adamnemeth.todolist.ToggleSwitch?>
+<?import org.controlsfx.control.ToggleSwitch?>
+<?import javafx.scene.control.CheckBox?>
 <BorderPane fx:id="mainBorderPane" fx:controller="com.adamnemeth.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
@@ -33,7 +34,7 @@
                 </Menu>
             </MenuBar>
             <ToolBar>
-                <HBox spacing="10">
+                <HBox spacing="10" alignment="CENTER">
                     <Button onAction="#showNewtItemDialog">
                         <tooltip>
                             <Tooltip text="Add a New Todo Item"/>
@@ -56,7 +57,16 @@
                             </ImageView>
                         </graphic>
                     </Button>
-                    <ToggleSwitch onMouseClicked="#handleToggleSwitch" />
+                    <CheckBox fx:id="overdueCB" text="Overdue" onAction="#handeTimeFilterCB">
+                        <font>
+                            <Font name="Arial" size="15"/>
+                        </font>
+                    </CheckBox>
+                    <CheckBox fx:id="onTimeCB" text="On time" onAction="#handeTimeFilterCB">
+                        <font>
+                            <Font name="Arial" size="15"/>
+                        </font>
+                    </CheckBox>
                     <ToggleButton fx:id="filterToggleButton" text="Today's Items" onAction="#handleFilterButton">
                         <tooltip>
                             <Tooltip text="Button Down: Show Today's items only. Button Up: Show all items"/>
