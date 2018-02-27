@@ -18,6 +18,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.control.ToggleButton?>
+<?import com.adamnemeth.todolist.ToggleSwitch?>
 <BorderPane fx:id="mainBorderPane" fx:controller="com.adamnemeth.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
@@ -39,10 +40,23 @@
                         </tooltip>
                         <graphic>
                             <ImageView>
-                                <Image url="@/toolbarButtonGraphics/general/New24.gif"/>
+                                <!--<Image url="@/toolbarButtonGraphics/general/New24.gif"/>-->
+                                <Image url="@/image/add.png"/>
                             </ImageView>
                         </graphic>
                     </Button>
+                    <Button onAction="#handleDeleteButton">
+                        <tooltip>
+                            <Tooltip text="Delete selected item"/>
+                        </tooltip>
+                        <graphic>
+                            <ImageView>
+                                <!--<Image url="@/toolbarButtonGraphics/general/New24.gif"/>-->
+                                <Image url="@/image/rubbish.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <ToggleSwitch onMouseClicked="#handleToggleSwitch" />
                     <ToggleButton fx:id="filterToggleButton" text="Today's Items" onAction="#handleFilterButton">
                         <tooltip>
                             <Tooltip text="Button Down: Show Today's items only. Button Up: Show all items"/>

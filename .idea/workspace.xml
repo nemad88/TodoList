@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="new stuffs">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/ToggleSwitch.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.iml" afterPath="$PROJECT_DIR$/ToDoList.iml" />
       <change beforePath="$PROJECT_DIR$/TodoListItems.txt" afterPath="$PROJECT_DIR$/TodoListItems.txt" />
       <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller$1.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/mainwindow.fxml" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/mainwindow.fxml" />
       <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
       <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -82,45 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FXMLLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="3121" column="0" lean-forward="false" selection-start-line="3121" selection-start-column="0" selection-end-line="3121" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="218" column="13" lean-forward="true" selection-start-line="218" selection-start-column="13" selection-end-line="218" selection-end-column="13" />
+            <state relative-caret-position="1751">
+              <caret line="227" column="72" lean-forward="false" selection-start-line="227" selection-start-column="72" selection-end-line="227" selection-end-column="72" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2681#2682#0" expanded="true" />
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2865#2866#0" expanded="true" />
-                <element signature="e#2952#2953#0" expanded="true" />
-                <element signature="e#3127#3137#0" expanded="true" />
-                <element signature="e#3260#3261#0" expanded="true" />
-                <element signature="e#3343#3344#0" expanded="true" />
-                <element signature="e#8907#8908#0" expanded="true" />
-                <element signature="e#8938#8939#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListView.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="398" column="22" lean-forward="false" selection-start-line="398" selection-start-column="22" selection-end-line="398" selection-end-column="22" />
-              <folding>
-                <element signature="e#17686#17687#0" expanded="true" />
-                <element signature="e#17728#17729#0" expanded="true" />
+                <element signature="class#2719:2870" expanded="false" />
+                <element signature="class#2903:3098" expanded="false" />
+                <element signature="class#3291:3489" expanded="false" />
+                <element signature="class#3713:5671" expanded="false" />
+                <element signature="e#4267#4360#0" expanded="false" />
+                <element signature="e#5301#5598#0" expanded="false" />
+                <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+                <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -129,8 +102,8 @@
       <file leaf-file-name="TodoData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#679#680#0" expanded="true" />
@@ -148,15 +121,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainwindow.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainwindow.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+              <folding>
+                <element signature="n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#items#0;n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#tooltip#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#ImageView#0;n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#tooltip#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#ImageView#0;n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#tooltip#0;n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#ListView#0;n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#font#0;n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+                <element signature="n#font#0;n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToggleSwitch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/ToggleSwitch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,16 +190,6 @@
               <folding>
                 <element signature="method#TodoItem#0;class#TodoItem#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoListItems.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -233,8 +231,10 @@
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
         <option value="$PROJECT_DIR$/TodoListItems.txt" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
-        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/ToogleSwitch.java" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/ToggleSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
       </list>
     </option>
   </component>
@@ -246,10 +246,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="36" />
-    <option name="y" value="98" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -270,48 +270,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="controlsfx-9.0.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="todolist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="datamodel" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
             <path>
-              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jlfgr-1_0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TodoList" type="cbb8eebc:String" user="TodoList" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TodoList" type="cbb8eebc:String" user="TodoList" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TodoList" type="cbb8eebc:String" user="TodoList" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Image" type="cbb8eebc:String" user="Image" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,6 +357,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyDev\TodoList\src\Image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyDev\TodoList\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -486,6 +520,8 @@
       <workItem from="1519401917267" duration="18968000" />
       <workItem from="1519584050132" duration="623000" />
       <workItem from="1519668983562" duration="8052000" />
+      <workItem from="1519727524997" duration="6680000" />
+      <workItem from="1519739114233" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1519470643585</created>
@@ -526,43 +562,43 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37444000" />
+    <option name="totallyTimeSpent" value="44293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20717423" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -597,7 +633,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java</url>
-          <line>110</line>
+          <line>113</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -611,63 +647,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="78" lean-forward="false" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#2442#2443#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding>
-            <element signature="method#TodoItem#0;class#TodoItem#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -692,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="78" lean-forward="false" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,16 +679,14 @@
         <state relative-caret-position="1088">
           <caret line="69" column="88" lean-forward="false" selection-start-line="69" selection-start-column="88" selection-end-line="69" selection-end-column="88" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3127#3137#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#8907#8908#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
+            <element signature="class#2719:2870" expanded="false" />
+            <element signature="class#2903:3098" expanded="false" />
+            <element signature="class#3291:3489" expanded="false" />
+            <element signature="class#3713:5671" expanded="false" />
+            <element signature="e#4267#4360#0" expanded="false" />
+            <element signature="e#5301#5598#0" expanded="false" />
+            <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,16 +704,14 @@
         <state relative-caret-position="1241">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3127#3137#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#8907#8908#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
+            <element signature="class#2719:2870" expanded="false" />
+            <element signature="class#2903:3098" expanded="false" />
+            <element signature="class#3291:3489" expanded="false" />
+            <element signature="class#3713:5671" expanded="false" />
+            <element signature="e#4267#4360#0" expanded="false" />
+            <element signature="e#5301#5598#0" expanded="false" />
+            <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,7 +723,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
+          <folding>
+            <element signature="n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#items#0;n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,16 +793,14 @@
         <state relative-caret-position="1003">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3127#3137#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#8907#8908#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
+            <element signature="class#2719:2870" expanded="false" />
+            <element signature="class#2903:3098" expanded="false" />
+            <element signature="class#3291:3489" expanded="false" />
+            <element signature="class#3713:5671" expanded="false" />
+            <element signature="e#4267#4360#0" expanded="false" />
+            <element signature="e#5301#5598#0" expanded="false" />
+            <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,7 +812,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
+          <folding>
+            <element signature="n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#items#0;n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +884,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
+          <folding>
+            <element signature="n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#items#0;n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,16 +926,14 @@
         <state relative-caret-position="578">
           <caret line="48" column="73" lean-forward="true" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3127#3137#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#8907#8908#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
+            <element signature="class#2719:2870" expanded="false" />
+            <element signature="class#2903:3098" expanded="false" />
+            <element signature="class#3291:3489" expanded="false" />
+            <element signature="class#3713:5671" expanded="false" />
+            <element signature="e#4267#4360#0" expanded="false" />
+            <element signature="e#5301#5598#0" expanded="false" />
+            <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -914,7 +953,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#items#0;n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -923,102 +985,34 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3127#3137#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#8907#8908#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
+            <element signature="class#2719:2870" expanded="false" />
+            <element signature="class#2903:3098" expanded="false" />
+            <element signature="class#3291:3489" expanded="false" />
+            <element signature="class#3713:5671" expanded="false" />
+            <element signature="e#4267#4360#0" expanded="false" />
+            <element signature="e#5301#5598#0" expanded="false" />
+            <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/com/sun/javafx/application/LauncherImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="843" column="0" lean-forward="false" selection-start-line="843" selection-start-column="0" selection-end-line="843" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/nio/file/Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/collections/FXCollections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="75" column="113" lean-forward="false" selection-start-line="75" selection-start-column="113" selection-end-line="75" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="2745" column="41" lean-forward="false" selection-start-line="2745" selection-start-column="41" selection-end-line="2745" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/com/sun/javafx/application/LauncherImpl.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/nio/file/Paths.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/collections/FXCollections.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="146" column="22" lean-forward="false" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/util/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/Cloud/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Tutorial videos/Java/Pluralsight - Mastering Java Swing/Part 2/mastering-java-swing-part2/mastering-java-swing-part2-m8-swing-databases-exercise-files/Swing41 - Wiring in the Database Code/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListCell.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/util/Callback.java" />
+    <entry file="file://G:/Cloud/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Tutorial videos/Java/Pluralsight - Mastering Java Swing/Part 2/mastering-java-swing-part2/mastering-java-swing-part2-m8-swing-databases-exercise-files/Swing41 - Wiring in the Database Code/.project" />
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1030,11 +1024,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Alert.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Alert.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java" />
+    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/AlignJustifyVertical16.gif" />
+    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/History16.gif" />
+    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/History24.gif" />
+    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/TipOfTheDay24.gif" />
+    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/text/Italic16.gif" />
+    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/development/BeanAdd16.gif" />
+    <entry file="file://$PROJECT_DIR$/src/image/up.ico" />
+    <entry file="file://$PROJECT_DIR$/src/image/import.ico" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="153" column="8" lean-forward="false" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="133">
+          <caret line="3121" column="0" lean-forward="false" selection-start-line="3121" selection-start-column="0" selection-end-line="3121" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -1048,21 +1059,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="398" column="22" lean-forward="false" selection-start-line="398" selection-start-column="22" selection-end-line="398" selection-end-column="22" />
-          <folding>
-            <element signature="e#17686#17687#0" expanded="true" />
-            <element signature="e#17728#17729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
@@ -1079,22 +1079,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/beans/property/SimpleBooleanProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="218" column="13" lean-forward="true" selection-start-line="218" selection-start-column="13" selection-end-line="218" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3127#3137#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#8907#8908#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,52 +1095,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="3121" column="0" lean-forward="false" selection-start-line="3121" selection-start-column="0" selection-end-line="3121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/AlignJustifyVertical16.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/History16.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/History24.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/general/TipOfTheDay24.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/text/Italic16.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Controls/jlfgr-1_0.jar!/toolbarButtonGraphics/development/BeanAdd16.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <folding>
+            <element signature="n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#items#0;n#Menu#0;n#MenuBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#graphic#0;n#Button#1;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#tooltip#0;n#ToggleButton#0;n#HBox#0;n#ToolBar#0;n#VBox#0;n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#left#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#0;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="n#font#0;n#Label#1;n#HBox#0;n#VBox#0;n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="227" column="72" lean-forward="false" selection-start-line="227" selection-start-column="72" selection-end-line="227" selection-end-column="72" />
+          <folding>
+            <element signature="class#2719:2870" expanded="false" />
+            <element signature="class#2903:3098" expanded="false" />
+            <element signature="class#3291:3489" expanded="false" />
+            <element signature="class#3713:5671" expanded="false" />
+            <element signature="e#4267#4360#0" expanded="false" />
+            <element signature="e#5301#5598#0" expanded="false" />
+            <element signature="method#showNewtItemDialog#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleFilterButton#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/ToggleSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

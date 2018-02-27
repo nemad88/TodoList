@@ -3,6 +3,7 @@ package com.adamnemeth.todolist;
 import com.adamnemeth.todolist.datamodel.TodoData;
 import com.adamnemeth.todolist.datamodel.TodoItem;
 import javafx.application.Platform;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.transformation.FilteredList;
@@ -41,12 +42,13 @@ public class Controller {
     private ContextMenu listContextMenu;
     @FXML
     private ToggleButton filterToggleButton;
+    private ToggleSwitch toggleSwitch;
     private FilteredList<TodoItem> filteredList;
     private Predicate<TodoItem> wantAllItems;
     private Predicate<TodoItem> wantTodaysItems;
 
     public void initialize(){
-
+        toggleSwitch = new ToggleSwitch();
         listContextMenu = new ContextMenu();
         MenuItem deleteMenuItem = new MenuItem("Delete");
         deleteMenuItem.setOnAction(new EventHandler<ActionEvent>() {
@@ -57,6 +59,8 @@ public class Controller {
             }
         });
         listContextMenu.getItems().addAll(deleteMenuItem);
+
+
 
         todoListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<TodoItem>() {
             @Override
@@ -92,7 +96,6 @@ public class Controller {
                 return o1.getDeadline().compareTo(o2.getDeadline());
             }
         });
-//        todoListView.setItems(TodoData.getInstance().getTodoItems());
         todoListView.setItems(sortedList);
         todoListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         todoListView.getSelectionModel().selectFirst();
@@ -178,19 +181,6 @@ public class Controller {
         }
     }
 
-    @FXML
-    public void handleClickListView(){
-        TodoItem item = todoListView.getSelectionModel().getSelectedItem();
-        itemDetailsTextArea.setText(item.getDetails());
-        deadlineLabel.setText(item.getDeadline().toString());
-//        System.out.println("The selected item is " + item);
-//        StringBuilder sb = new StringBuilder(item.getDetails());
-//        sb.append("\n\n\n\n");
-//        sb.append("Due: ");
-//        sb.append(item.getDeadline().toString());
-//        itemDetailsTextArea.setText(sb.toString());
-    }
-
     public void deleteItem(TodoItem item){
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Delete Todo Item");
@@ -224,7 +214,19 @@ public class Controller {
     }
 
     @FXML
+    public void handleDeleteButton(){
+        TodoItem item = todoListView.getSelectionModel().getSelectedItem();
+        deleteItem(item);
+    }
+
+    @FXML
     public void handleExit(){
         Platform.exit();
+    }
+
+    public void handleToggleSwitch(){
+        SimpleBooleanProperty allapot = toggleSwitch.switchOnProperty();
+        System.out.println(allapot.getValue());
+        System.out.println("teszt");
     }
 }
