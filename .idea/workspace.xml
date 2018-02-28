@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/db/todos.mv.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db/todos.trace.db" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/DialogController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Main.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -301,6 +293,11 @@
             <path>
               <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
               <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -578,11 +575,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519767020715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="database delete fix, add fix">
+      <created>1519804524008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1519804524008</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65337000" />
+    <option name="totallyTimeSpent" value="65988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -600,7 +604,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -657,7 +661,8 @@
     <MESSAGE value="vannak benne bugok" />
     <MESSAGE value="csacacsa" />
     <MESSAGE value="database implement" />
-    <option name="LAST_COMMIT_MESSAGE" value="database implement" />
+    <MESSAGE value="database delete fix, add fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="database delete fix, add fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
