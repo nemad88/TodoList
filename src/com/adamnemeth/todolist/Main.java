@@ -19,7 +19,6 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
     public static void main(String[] args) {
         launch(args);
     }
@@ -27,11 +26,10 @@ public class Main extends Application {
     @Override
     public void stop() throws Exception {
         TodoData.getInstance().getConnection().close();
-
     }
 
     @Override
-    public void init() throws Exception {
+    public void init() {
         try {
             TodoData.getInstance().getTodoItemsFromDatabase();
         } catch (SQLException e){

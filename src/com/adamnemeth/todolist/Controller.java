@@ -15,6 +15,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.util.Callback;
@@ -53,14 +54,6 @@ public class Controller {
     private Predicate<TodoItem> wantOverdueItems;
 
     public void initialize(){
-
-//        try {
-//            TodoData.getInstance().setDatabaseConnection();
-//            System.out.println("Connection OK");
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-
         overdueCB.setSelected(true);
         onTimeCB.setSelected(true);
         listContextMenu = new ContextMenu();
@@ -73,7 +66,6 @@ public class Controller {
             }
         });
         listContextMenu.getItems().addAll(deleteMenuItem);
-
         todoListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<TodoItem>() {
             @Override
             public void changed(ObservableValue<? extends TodoItem> observable, TodoItem oldValue, TodoItem newValue) {
@@ -266,6 +258,14 @@ public class Controller {
                     return false;
                 }
             });
+        }
+    }
+
+    @FXML
+    public void doubleClick(MouseEvent event) {
+        if (event.isPrimaryButtonDown() && event.getClickCount() == 2) {
+            TodoItem deletableItem = todoListView.getSelectionModel().getSelectedItem();
+            deleteItem(deletableItem);
         }
     }
 

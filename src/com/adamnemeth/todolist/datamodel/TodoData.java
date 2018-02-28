@@ -17,6 +17,7 @@ public class TodoData {
     private String sql;
     private ResultSet resultSet;
 
+    //region Getter, Setter
     public ResultSet getResultSet() {
         return resultSet;
     }
@@ -44,10 +45,10 @@ public class TodoData {
     public Connection getConnection() {
         return connection;
     }
+    //endregion
 
     public void storeTodoItems(TodoItem todoItem) throws SQLException {
-        String sql = "INSERT INTO TODO " +
-                "VALUES (NULL, '"+ todoItem.getShortDescription()+"', '"+todoItem.getDetails()+"', '"+todoItem.getDeadline().format(formatter)+"')";
+        String sql = "INSERT INTO TODO VALUES (NULL, '" + todoItem.getShortDescription() + "', '" + todoItem.getDetails() + "', '" + todoItem.getDeadline().format(formatter) + "')";
         System.out.println(sql);
         System.out.println(todoItem.toString());
         TodoData.getInstance().getConnection().createStatement().executeUpdate(sql);
