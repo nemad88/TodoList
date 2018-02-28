@@ -7,6 +7,7 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
+import java.sql.SQLException;
 import java.time.LocalDate;
 
 public class DialogController {
@@ -18,11 +19,13 @@ public class DialogController {
     @FXML
     private DatePicker deadlinePicker;
 
-    public TodoItem processResults(){
+    public TodoItem processResults() throws SQLException {
         String shortDescription = shortDescriptionField.getText().trim();
         String details = detailsArea.getText().trim();
         LocalDate deadLineValue = deadlinePicker.getValue();
-        TodoItem newItem = new TodoItem(shortDescription, details, deadLineValue);
+        int ID = TodoData.getInstance().getLastID()+1;
+        TodoItem newItem = new TodoItem(ID, shortDescription, details, deadLineValue);
+        TodoData.getInstance().storeTodoItems(newItem);
         TodoData.getInstance().addTodoItem(newItem);
         return newItem;
     }

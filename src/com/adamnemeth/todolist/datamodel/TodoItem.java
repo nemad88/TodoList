@@ -6,11 +6,17 @@ public class TodoItem {
     private String shortDescription;
     private String details;
     private LocalDate deadline;
+    private int id;
 
-    public TodoItem(String shortDescription, String details, LocalDate deadline) {
+    public TodoItem(int id, String shortDescription, String details, LocalDate deadline) {
         this.shortDescription = shortDescription;
         this.details = details;
         this.deadline = deadline;
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getShortDescription() {
@@ -36,9 +42,4 @@ public class TodoItem {
     public void setDeadline(LocalDate deadline) {
         this.deadline = deadline;
     }
-
-//    @Override
-//    public String toString() {
-//        return shortDescription;
-//    }
 }

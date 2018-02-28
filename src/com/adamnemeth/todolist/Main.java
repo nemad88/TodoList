@@ -7,7 +7,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.sql.SQLException;
 
 public class Main extends Application {
@@ -27,12 +26,8 @@ public class Main extends Application {
 
     @Override
     public void stop() throws Exception {
-        try {
-            TodoData.getInstance().storeTodoItems();
-            TodoData.getInstance().getConnection().close();
-        } catch (IOException e){
-            System.out.println(e.getMessage());
-        }
+        TodoData.getInstance().getConnection().close();
+
     }
 
     @Override

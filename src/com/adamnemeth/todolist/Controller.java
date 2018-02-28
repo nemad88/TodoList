@@ -186,7 +186,12 @@ public class Controller {
         Optional<ButtonType> result = dialog.showAndWait();
         if(result.isPresent() && result.get() == ButtonType.OK){
             DialogController controller = fxmlLoader.getController();
-            TodoItem newItem = controller.processResults();
+            TodoItem newItem = null;
+            try {
+                newItem = controller.processResults();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
             todoListView.getSelectionModel().select(newItem);
         }
     }
@@ -210,8 +215,8 @@ public class Controller {
 
         try {
             if (result.isPresent() && (result.get() == ButtonType.OK)){
-                String itemToDelete = item.getShortDescription();
-                TodoData.getInstance().getConnection().createStatement().execute("DELETE FROM WHERE SHORTDESC="+itemToDelete);
+                int id = item.getId();
+                TodoData.getInstance().getConnection().createStatement().execute("DELETE FROM TODO WHERE ID="+id+"");
                 TodoData.getInstance().deleteTodoItem(item);
             }
         }catch (SQLException exception){
@@ -262,14 +267,6 @@ public class Controller {
                 }
             });
         }
-
-//        CheckBox cb = (CheckBox) event.getSource();
-//        String id = cb.getId();
-//        if(id.equals("overdueCB")){
-//            System.out.println("overdue");
-//        } else {
-//
-//        }
     }
 
     @FXML

@@ -3,15 +3,9 @@ package com.adamnemeth.todolist.datamodel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.sql.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Iterator;
 
 public class TodoData {
     private static TodoData instance = new TodoData();
@@ -23,6 +17,14 @@ public class TodoData {
     private String sql;
     private ResultSet resultSet;
 
+    public ResultSet getResultSet() {
+        return resultSet;
+    }
+
+    public void setResultSet(ResultSet resultSet) {
+        this.resultSet = resultSet;
+    }
+
     public ObservableList<TodoItem> getTodoItems() {
         return todoItems;
     }
@@ -30,10 +32,6 @@ public class TodoData {
     public static TodoData getInstance(){
         return instance;
     }
-
-//    private TodoData(){
-//        formatter =DateTimeFormatter.ofPattern("dd-MM-yyyy");
-//    }
 
     private TodoData(){
         formatter =DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -47,87 +45,16 @@ public class TodoData {
         return connection;
     }
 
-    //    public void loadTodoItems() throws IOException {
-//        todoItems = FXCollections.observableArrayList();
-//        Path path = Paths.get(filename);
-//        BufferedReader br = Files.newBufferedReader(path);
-//
-//        String input;
-//
-//        try {
-//            while ((input = br.readLine()) != null) {
-//                String[] itemPieces = input.split("\t");
-//                String shortDescription = itemPieces[0];
-//                String details = itemPieces[1];
-//                String dateString = itemPieces[2];
-//
-//                LocalDate date = LocalDate.parse(dateString, formatter);
-//                TodoItem todoItem = new TodoItem(shortDescription, details, date);
-//                todoItems.add(todoItem);
-//            }
-//        } finally {
-//            if (br != null) {
-//                br.close();
-//            }
-//        }
-//    }
-
-//    public void storeTodoItems() throws IOException{
-//        Path path = Paths.get(filename);
-//        BufferedWriter bw = Files.newBufferedWriter(path);
-//        try {
-//            Iterator<TodoItem> iter = todoItems.iterator();
-//            while (iter.hasNext()){
-//                TodoItem item = iter.next();
-//                bw.write(String.format("%s\t%s\t%s", item.getShortDescription(), item.getDetails(), item.getDeadline().format(formatter)));
-//                bw.newLine();
-//            }
-//        } finally {
-//            if (bw != null){
-//                bw.close();
-//            }
-//        }
-//    }
-
-
-    public void storeTodoItems() throws IOException{
-        Path path = Paths.get(filename);
-        BufferedWriter bw = Files.newBufferedWriter(path);
-//        try {
-//            Iterator<TodoItem> iter = todoItems.iterator();
-//            while (iter.hasNext()){
-//                TodoItem item = iter.next();
-//                bw.write(String.format("%s\t%s\t%s", item.getShortDescription(), item.getDetails(), item.getDeadline().format(formatter)));
-//                bw.newLine();
-//            }
-//        } finally {
-//            if (bw != null){
-//                bw.close();
-//            }
-//        }
-
-        try {
-            Iterator<TodoItem> iter = todoItems.iterator();
-            while (iter.hasNext()){
-                TodoItem item = iter.next();
-                String sql = "INSERT INTO TODO " +
-                        "VALUES (NULL, '"+ item.getShortDescription()+"', '"+item.getDetails()+"', '"+item.getDeadline().format(formatter)+"')";
-                System.out.println(sql);
-                TodoData.getInstance().getConnection().createStatement().executeUpdate(sql);
-            }
-        } catch (SQLException sqlException){
-            System.out.println(sqlException);
-        } finally {
-            if (bw != null){
-                bw.close();
-            }
-        }
-
+    public void storeTodoItems(TodoItem todoItem) throws SQLException {
+        String sql = "INSERT INTO TODO " +
+                "VALUES (NULL, '"+ todoItem.getShortDescription()+"', '"+todoItem.getDetails()+"', '"+todoItem.getDeadline().format(formatter)+"')";
+        System.out.println(sql);
+        System.out.println(todoItem.toString());
+        TodoData.getInstance().getConnection().createStatement().executeUpdate(sql);
     }
 
     public void getTodoItemsFromDatabase() throws SQLException {
         todoItems = FXCollections.observableArrayList();
-
         setDatabaseConnection();
         statement = connection.createStatement();
         sql = "SELECT * FROM TODO";
@@ -135,17 +62,19 @@ public class TodoData {
         String shortDescription;
         String details;
         String dateString;
+        int id;
         while (resultSet.next()) {
+            id = resultSet.getInt("ID");
             shortDescription = resultSet.getString("SHORTDESC");
             details = resultSet.getString("LONGDESC");
             dateString = resultSet.getString("DATE");
             LocalDate date = LocalDate.parse(dateString, formatter);
-            TodoItem todoItem = new TodoItem(shortDescription, details, date);
+            TodoItem todoItem = new TodoItem(id, shortDescription, details, date);
+            System.out.println(todoItem.getId());
             todoItems.add(todoItem);
         }
         resultSet.close();
     }
-
 
     public void setDatabaseConnection() throws SQLException{
         connection = DriverManager.getConnection("jdbc:h2:file:./db/todos", "", "");
@@ -154,4 +83,20 @@ public class TodoData {
     public void deleteTodoItem(TodoItem item){
         todoItems.remove(item);
     }
+
+    public int getLastID(){
+        int lastID=0;
+        try {
+            ResultSet rs = TodoData.getInstance().getConnection().createStatement().executeQuery("SELECT MAX(ID) AS MAXID FROM TODO");
+            while (rs.next()){
+                lastID = rs.getInt("MAXID");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("ez"+lastID);
+        return lastID;
+    }
+
 }

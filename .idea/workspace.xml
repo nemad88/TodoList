@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="new stuffs">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/h2-1.4.196.jar" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.iml" afterPath="$PROJECT_DIR$/ToDoList.iml" />
-      <change beforePath="$PROJECT_DIR$/TodoListItems.txt" afterPath="$PROJECT_DIR$/TodoListItems.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller$1.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Controller.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/mainwindow.fxml" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/mainwindow.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/DialogController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Main.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/adamnemeth/todolist/datamodel/TodoItem.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" />
       <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/ToggleSwitch.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" afterPath="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,18 +76,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="381">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-393">
-              <caret line="225" column="44" lean-forward="true" selection-start-line="225" selection-start-column="44" selection-end-line="225" selection-end-column="44" />
+            <state relative-caret-position="406">
+              <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
               <folding>
                 <element signature="e#3186#3187#0" expanded="true" />
                 <element signature="e#3229#3230#0" expanded="true" />
@@ -102,48 +100,41 @@
                 <element signature="e#4090#4100#0" expanded="true" />
                 <element signature="e#4223#4224#0" expanded="true" />
                 <element signature="e#4306#4307#0" expanded="true" />
-                <element signature="e#9908#9909#0" expanded="true" />
-                <element signature="e#9960#9961#0" expanded="true" />
-                <marker date="1519765737120" expanded="true" signature="8197:8225" ph="DELETE FROM WHERE... " />
+                <element signature="e#10012#10013#0" expanded="true" />
+                <element signature="e#10064#10065#0" expanded="true" />
+                <marker date="1519804444550" expanded="true" signature="8310:8336" ph="DELETE FROM WHERE... " />
+                <marker date="1519804444550" expanded="true" signature="8310:8342" ph="DELETE FROM TODO... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListView.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="398" column="22" lean-forward="false" selection-start-line="398" selection-start-column="22" selection-end-line="398" selection-end-column="22" />
-              <folding>
-                <element signature="e#17686#17687#0" expanded="true" />
-                <element signature="e#17728#17729#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TodoData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+            <state relative-caret-position="382">
+              <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#5096#5097#0" expanded="true" />
-                <element signature="e#5134#5135#0" expanded="true" />
-                <marker date="1519766940070" expanded="true" signature="3570:3733" ph="INSERT INTO TODO... " />
-                <marker date="1519766940070" expanded="true" signature="4305:4323" ph="SELECT * FRO... TODO" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#2703#2704#0" expanded="true" />
+                <element signature="e#2741#2742#0" expanded="true" />
+                <marker date="1519804354547" expanded="true" signature="1238:1405" ph="INSERT INTO TODO... " />
+                <marker date="1519804354547" expanded="true" signature="1802:1820" ph="SELECT * FRO... TODO" />
+                <marker date="1519804354547" expanded="true" signature="2906:2939" ph="SELECT MAX(I... TODO" />
               </folding>
             </state>
           </provider>
@@ -152,8 +143,8 @@
       <file leaf-file-name="DialogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -179,24 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainwindow.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="69" column="102" lean-forward="false" selection-start-line="69" selection-start-column="102" selection-end-line="69" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TodoItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="449">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -244,16 +222,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/todoItemDialog.fxml" />
-        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/ToogleSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/ToggleSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/mainwindow.fxml" />
         <option value="$PROJECT_DIR$/TodoListItems.txt" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java" />
         <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java" />
+        <option value="$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java" />
       </list>
     </option>
   </component>
@@ -593,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519486006245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="database implement">
+      <created>1519767020715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519767020715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60171000" />
+    <option name="totallyTimeSpent" value="65337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -671,25 +656,26 @@
     <MESSAGE value="Second" />
     <MESSAGE value="vannak benne bugok" />
     <MESSAGE value="csacacsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="csacacsa" />
+    <MESSAGE value="database implement" />
+    <option name="LAST_COMMIT_MESSAGE" value="database implement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java</url>
-          <line>40</line>
+          <line>35</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java</url>
-          <line>41</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java</url>
-          <line>278</line>
+          <line>275</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -703,14 +689,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
@@ -727,9 +705,10 @@
             <element signature="e#4090#4100#0" expanded="true" />
             <element signature="e#4223#4224#0" expanded="true" />
             <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#9908#9909#0" expanded="true" />
-            <element signature="e#9960#9961#0" expanded="true" />
-            <marker date="1519765737120" expanded="true" signature="8197:8225" ph="DELETE FROM WHERE... " />
+            <element signature="e#10012#10013#0" expanded="true" />
+            <element signature="e#10064#10065#0" expanded="true" />
+            <marker date="1519804444550" expanded="true" signature="8310:8336" ph="DELETE FROM WHERE... " />
+            <marker date="1519804444550" expanded="true" signature="8310:8342" ph="DELETE FROM TODO... " />
           </folding>
         </state>
       </provider>
@@ -759,20 +738,25 @@
           <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#5096#5097#0" expanded="true" />
-            <element signature="e#5134#5135#0" expanded="true" />
-            <marker date="1519766940070" expanded="true" signature="3570:3733" ph="INSERT INTO TODO... " />
-            <marker date="1519766940070" expanded="true" signature="4305:4323" ph="SELECT * FRO... TODO" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+            <element signature="e#2741#2742#0" expanded="true" />
+            <marker date="1519804354547" expanded="true" signature="1238:1405" ph="INSERT INTO TODO... " />
+            <marker date="1519804354547" expanded="true" signature="1802:1820" ph="SELECT * FRO... TODO" />
+            <marker date="1519804354547" expanded="true" signature="2906:2939" ph="SELECT MAX(I... TODO" />
           </folding>
         </state>
       </provider>
@@ -801,9 +785,10 @@
             <element signature="e#4090#4100#0" expanded="true" />
             <element signature="e#4223#4224#0" expanded="true" />
             <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#9908#9909#0" expanded="true" />
-            <element signature="e#9960#9961#0" expanded="true" />
-            <marker date="1519765737120" expanded="true" signature="8197:8225" ph="DELETE FROM WHERE... " />
+            <element signature="e#10012#10013#0" expanded="true" />
+            <element signature="e#10064#10065#0" expanded="true" />
+            <marker date="1519804444550" expanded="true" signature="8310:8336" ph="DELETE FROM WHERE... " />
+            <marker date="1519804444550" expanded="true" signature="8310:8342" ph="DELETE FROM TODO... " />
           </folding>
         </state>
       </provider>
@@ -833,20 +818,25 @@
           <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#5096#5097#0" expanded="true" />
-            <element signature="e#5134#5135#0" expanded="true" />
-            <marker date="1519766940070" expanded="true" signature="3570:3733" ph="INSERT INTO TODO... " />
-            <marker date="1519766940070" expanded="true" signature="4305:4323" ph="SELECT * FRO... TODO" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+            <element signature="e#2741#2742#0" expanded="true" />
+            <marker date="1519804354547" expanded="true" signature="1238:1405" ph="INSERT INTO TODO... " />
+            <marker date="1519804354547" expanded="true" signature="1802:1820" ph="SELECT * FRO... TODO" />
+            <marker date="1519804354547" expanded="true" signature="2906:2939" ph="SELECT MAX(I... TODO" />
           </folding>
         </state>
       </provider>
@@ -894,9 +884,10 @@
             <element signature="e#4090#4100#0" expanded="true" />
             <element signature="e#4223#4224#0" expanded="true" />
             <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#9908#9909#0" expanded="true" />
-            <element signature="e#9960#9961#0" expanded="true" />
-            <marker date="1519765737120" expanded="true" signature="8197:8225" ph="DELETE FROM WHERE... " />
+            <element signature="e#10012#10013#0" expanded="true" />
+            <element signature="e#10064#10065#0" expanded="true" />
+            <marker date="1519804444550" expanded="true" signature="8310:8336" ph="DELETE FROM WHERE... " />
+            <marker date="1519804444550" expanded="true" signature="8310:8342" ph="DELETE FROM TODO... " />
           </folding>
         </state>
       </provider>
@@ -936,9 +927,10 @@
             <element signature="e#4090#4100#0" expanded="true" />
             <element signature="e#4223#4224#0" expanded="true" />
             <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#9908#9909#0" expanded="true" />
-            <element signature="e#9960#9961#0" expanded="true" />
-            <marker date="1519765737120" expanded="true" signature="8197:8225" ph="DELETE FROM WHERE... " />
+            <element signature="e#10012#10013#0" expanded="true" />
+            <element signature="e#10064#10065#0" expanded="true" />
+            <marker date="1519804444550" expanded="true" signature="8310:8336" ph="DELETE FROM WHERE... " />
+            <marker date="1519804444550" expanded="true" signature="8310:8342" ph="DELETE FROM TODO... " />
           </folding>
         </state>
       </provider>
@@ -982,17 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="398" column="22" lean-forward="false" selection-start-line="398" selection-start-column="22" selection-end-line="398" selection-end-column="22" />
-          <folding>
-            <element signature="e#17686#17687#0" expanded="true" />
-            <element signature="e#17728#17729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1020,14 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.sql/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="104" column="14" lean-forward="false" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TodoListItems.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1036,18 +1009,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="202">
+          <caret line="398" column="22" lean-forward="false" selection-start-line="398" selection-start-column="22" selection-end-line="398" selection-end-column="22" />
+          <folding>
+            <element signature="e#17686#17687#0" expanded="false" />
+            <element signature="e#17728#17729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/SelectionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="184" column="25" lean-forward="false" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.sql/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="202">
+          <caret line="104" column="14" lean-forward="false" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1060,10 +1044,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/DialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+            <element signature="e#2741#2742#0" expanded="true" />
+            <marker date="1519804354547" expanded="true" signature="1238:1405" ph="INSERT INTO TODO... " />
+            <marker date="1519804354547" expanded="true" signature="1802:1820" ph="SELECT * FRO... TODO" />
+            <marker date="1519804354547" expanded="true" signature="2906:2939" ph="SELECT MAX(I... TODO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="225" column="44" lean-forward="true" selection-start-line="225" selection-start-column="44" selection-end-line="225" selection-end-column="44" />
+        <state relative-caret-position="406">
+          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
           <folding>
             <element signature="e#3186#3187#0" expanded="true" />
             <element signature="e#3229#3230#0" expanded="true" />
@@ -1076,41 +1113,10 @@
             <element signature="e#4090#4100#0" expanded="true" />
             <element signature="e#4223#4224#0" expanded="true" />
             <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#9908#9909#0" expanded="true" />
-            <element signature="e#9960#9961#0" expanded="true" />
-            <marker date="1519765737120" expanded="true" signature="8197:8225" ph="DELETE FROM WHERE... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adamnemeth/todolist/datamodel/TodoData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#5096#5097#0" expanded="true" />
-            <element signature="e#5134#5135#0" expanded="true" />
-            <marker date="1519766940070" expanded="true" signature="3570:3733" ph="INSERT INTO TODO... " />
-            <marker date="1519766940070" expanded="true" signature="4305:4323" ph="SELECT * FRO... TODO" />
+            <element signature="e#10012#10013#0" expanded="true" />
+            <element signature="e#10064#10065#0" expanded="true" />
+            <marker date="1519804444550" expanded="true" signature="8310:8336" ph="DELETE FROM WHERE... " />
+            <marker date="1519804444550" expanded="true" signature="8310:8342" ph="DELETE FROM TODO... " />
           </folding>
         </state>
       </provider>
